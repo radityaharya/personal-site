@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#000000" />
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" />
+</head>
+
+<body>
+
+	<noscript>
+		<div class="content">
+			<header>
+				<h1>Raditya Harya</h1>
+			</header>
+			<main>
+				<p>Looks like you've got JavaScript disabled.</p>
+				<br>
+				<div class="typewriter">
+					<p style="font-weight: bold;">site under construction.</p>
+				</div>
+			</main>
+			<footer>
+				<div class="footer">
+					<a href="https://www.linkedin.com/in/radityaharya">linkedin.com/in/radityaharya</a>
+					<a href="mailto:contact@radityaharya.me">contact@radityaharya.me</a>
+					<a href="https://github.com/radityaharya">github.com/radityaharya</a>
+				</div>
+			</footer>
+		</div>
+		<style>
+			body {
+				margin: 0;
+			}
+
+			.content {
+				background-color: #000000;
+				color: #ffffff;
+				font-family: 'Inter', sans-serif;
+				font-size: 1.5rem;
+				font-weight: 300;
+				margin: 0;
+				padding: 0;
+				height: 100vh;
+				display: flex;
+				justify-content: space-between;
+				flex-direction: column;
+			}
+
+			header {
+				display: flex;
+				justify-content: start;
+				align-items: flex-start;
+				padding: 1rem;
+			}
+
+			h1 {
+				font-size: 2rem;
+				font-weight: 700;
+			}
+
+			main {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				padding: 1rem;
+				text-align: center;
+				flex-direction: column;
+			}
+
+			footer {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.footer {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.footer a {
+				color: #ffffff;
+				text-decoration: none;
+				margin-bottom: 1rem;
+			}
+
+			a:hover {
+				color: #ffffff;
+				text-decoration: underline;
+			}
+
+			.footer p {
+				color: #ffffff;
+				margin-bottom: 1rem;
+			}
+
+			.typewriter p {
+				overflow: hidden;
+				border-right: .15em solid orange;
+				white-space: nowrap;
+				margin: 0 auto;
+				letter-spacing: .15em;
+				animation:
+					typing 3.5s steps(40, end),
+					blink-caret .75s step-end infinite;
+			}
+
+			@keyframes typing {
+				from {
+					width: 0
+				}
+
+				to {
+					width: 100%
+				}
+			}
+
+			@keyframes blink-caret {
+
+				from,
+				to {
+					border-color: transparent
+				}
+
+				50% {
+					border-color: rgb(255, 255, 255);
+				}
+			}
+		</style>
+	</noscript>
+	<div id="root"></div>
+</body>
+
+</html>
